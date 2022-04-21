@@ -1,0 +1,27 @@
+.black{
+    filter: brightness(0);
+}
+
+.white{
+    filter: brightness(1);
+}
+
+.image{
+    pointer-events: none;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(228,217,111);
+}
+
+.next{
+    padding-top: 10px;
+}
